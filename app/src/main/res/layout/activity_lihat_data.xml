@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+android:id="@+id/card_view"
+android:clickable="true"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginBottom="8dp"
+android:layout_marginLeft="16dp"
+android:layout_marginRight="16dp"
+android:foreground="?attr/selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+android:id="@+id/activity_lihat_data"
+tools:context=".SQLite.LihatData">
+
+    <TextView
+        android:id="@+id/tv_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Text View" />
+
+    <TextView
+        android:id="@+id/tv_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_textView1"
+        android:layout_below="@id/tv_textView1"
+        android:layout_marginTop="20dp"
+        android:text="Text View" />
+
+    <TextView
+        android:id="@+id/tv_textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_textView2"
+        android:layout_below="@id/tv_textView2"
+        android:layout_marginTop="20dp"
+        android:text="Text View" />
+
+    <TextView
+        android:id="@+id/tv_textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_textView3"
+        android:layout_below="@id/tv_textView3"
+        android:layout_marginTop="20dp"
+        android:text="Text View" />
+
+    <TextView
+        android:id="@+id/tv_textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_textView4"
+        android:layout_below="@id/tv_textView4"
+        android:layout_marginTop="20dp"
+        android:text="Text View" />
+    <TextView
+        android:id="@+id/tv_textView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_textView5"
+        android:layout_alignBottom="@id/tv_textView5"
+        android:text="Perkataan Ulama" />
+
+
+    <TextView
+        android:id="@+id/tv_textView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_textView4"
+        android:layout_alignBottom="@id/tv_textView4"
+        android:text="Hadits" />
+
+    <TextView
+        android:id="@+id/tv_textView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_textView3"
+        android:layout_alignBottom="@id/tv_textView3"
+        android:text="Al-Qur'an" />
+
+    <TextView
+        android:id="@+id/tv_textView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_textView2"
+        android:layout_alignBottom="@id/tv_textView2"
+        android:text="Judul" />
+
+    <TextView
+        android:id="@+id/tv_textView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_textView1"
+        android:layout_alignBottom="@id/tv_textView1"
+        android:layout_alignParentLeft="true"
+        android:text="Nomor" />
+    <TextView
+        android:id="@+id/btnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_textView05"
+        android:layout_marginTop="34dp"
+        android:textStyle="bold"
+        android:textColor="@color/warnaText"
+        android:text="Back"/>
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
